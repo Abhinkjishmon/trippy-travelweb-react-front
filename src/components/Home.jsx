@@ -1,4 +1,5 @@
 import React from 'react';
+import Destination from './Destination';
 import Hero from './Hero';
 import Navbar from './Navbar';
 
@@ -15,6 +16,7 @@ const Home = () => {
          url="/"
          btnClass="show"
       />
+      <Destination />
     </>
   )
 }
