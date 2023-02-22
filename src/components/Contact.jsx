@@ -3,6 +3,7 @@ import Hero from './Hero'
 import Navbar from './Navbar'
 import './Contact.css'
 import Footer from './Footer'
+import ContactForm from './ContactForm'
 
 const Contact = () => {
   return (
@@ -13,6 +14,7 @@ const Contact = () => {
         heroImg="https://images.pexels.com/photos/4718088/pexels-photo-4718088.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
         title="Contact"
       />
+      <ContactForm />
       <Footer />
     </>
   )
