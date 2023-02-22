@@ -1,5 +1,6 @@
 import React from 'react';
 import Destination from './Destination';
+import Footer from './Footer';
 import Hero from './Hero';
 import Navbar from './Navbar';
 import Trip from './Trip';
@@ -19,6 +20,7 @@ const Home = () => {
       />
       <Destination />
       <Trip />
+      <Footer />
     </>
   )
 }
